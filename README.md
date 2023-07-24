@@ -1,4 +1,6 @@
-## Check Git Exposed in domains in a file or scan a single domain.
+# DotGitty
+An extension for checking if .git is exposed in domains in a file or in a single URL
+
 Scans using both http and https
 
 usage: python dotgitty.py [-h] [-v] [-u SINGLE_DOMAIN] [file_path]
