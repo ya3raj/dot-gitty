@@ -4,7 +4,13 @@ import argparse
 
 # ANSI escape codes for color formatting
 GREEN = "\033[92m"
+YELLOW = "\033[93m"
+CYAN = "\033[96m"
 RESET = "\033[0m"
+
+# Display the colorful message
+message = f"{GREEN}Coded by {YELLOW}ya3raj{CYAN}!{RESET}"
+print(message)
 
 def get_response_status(domain):
     try:
