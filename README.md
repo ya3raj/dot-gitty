@@ -17,4 +17,4 @@ python script.py -u example.com
 ## For list of Urls
 python script.py ~/root/domains.txt -v 
 
-## Make sur you use the -v command or else you will see an empty terminal!!!
+## Make sure you use the -v command or else you will see an empty terminal!!!
