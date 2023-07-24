@@ -1,5 +1,5 @@
 ## Check Git Exposed in domains in a file or scan a single domain.
-usage: script.py [-h] [-v] [-u SINGLE_DOMAIN] [file_path]
+usage: python dotgitty.py [-h] [-v] [-u SINGLE_DOMAIN] [file_path]
 
 positional arguments:
   file_path          Path to the file containing domain names
