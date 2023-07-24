@@ -1,4 +1,4 @@
-## Check Git vulnerability of domains in a file or scan a single domain.
+## Check Git Exposed in domains in a file or scan a single domain.
 usage: script.py [-h] [-v] [-u SINGLE_DOMAIN] [file_path]
 
 positional arguments:
