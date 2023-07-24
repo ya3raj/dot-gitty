@@ -19,4 +19,6 @@ python script.py -u example.com
 ## For list of Urls
 python script.py ~/root/domains.txt -v 
 
+Made For Educational Purpose Only. Use at your own risk.
+
 ## Make sure you use the -v command or else you will see an empty terminal!!!
