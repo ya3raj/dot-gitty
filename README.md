@@ -5,9 +5,9 @@ positional arguments:
   file_path          Path to the file containing domain names
 
 optional arguments:
-  -h, --help            show this help message and exit
-  -v, --verbose         Enable verbose mode
-  -u SINGLE_DOMAIN, --single_domain SINGLE_DOMAIN
+ *  -h, --help            show this help message and exit 
+ *  -v, --verbose         Enable verbose mode 
+ *  -u SINGLE_DOMAIN, --single_domain SINGLE_DOMAIN 
 
 ## For Single url 
 python script.py -u example.com 
