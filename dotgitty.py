@@ -29,6 +29,8 @@ def check_git_vulnerability(domain, http_status, https_status, vulnerable_domain
     try:
         http_git_url = f"http://{domain}/.git/HEAD"
         https_git_url = f"https://{domain}/.git/HEAD"
+        https_git_url = f"http://{domain}/.git/config"
+        https_git_url = f"https://{domain}/.git/config"
         
         http_response = requests.get(http_git_url, verify=True, timeout=5)  # Enable SSL certificate verification and set timeout
         https_response = requests.get(https_git_url, verify=True, timeout=5)  # Enable SSL certificate verification and set timeout
